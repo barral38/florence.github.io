@@ -8606,3 +8606,23 @@ input, select, textarea {
   justify-content: flex-start;
   align-items: center;
 }
+.menuToggle {
+  display: block;
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.5em 1em;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.menuToggle::after {
+  content: "\2630"; /* Unicode hamburger ☰ */
+  margin-left: 0.5em;
+}
+
