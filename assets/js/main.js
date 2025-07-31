@@ -337,22 +337,22 @@
 							}, 275);
 
 						});
-
-})(jQuery);
 // Menu toggle
 $('<a href="#menu" class="menuToggle"><span>Menu</span></a>')
-	.appendTo($body);
+  .appendTo($body);
 
 $('#menu')
-	.append('<a href="#menu" class="close">Close</a>')
-	.appendTo($body)
-	.panel({
-		delay: 500,
-		hideOnClick: true,
-		hideOnSwipe: true,
-		resetScroll: true,
-		resetForms: true,
-		side: 'right',
-		target: $body,
-		visibleClass: 'is-menu-visible'
-	});
+  .append('<a href="#menu" class="close">Fermer</a>')
+  .appendTo($body)
+  .panel({
+    delay: 500,
+    hideOnClick: true,
+    hideOnSwipe: true,
+    resetScroll: true,
+    resetForms: true,
+    side: 'right',
+    target: $body,
+    visibleClass: 'is-menu-visible'
+  });
+
+})(jQuery);
